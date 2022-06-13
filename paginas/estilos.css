@@ -47,7 +47,7 @@
 
 		.separar{
 			top:0;
-			position: sticky;
+			position: static;
 		}
 	#menu{
 		margin: 0px;
@@ -283,7 +283,7 @@
 
 		footer {
 			display: flex;
-			flex-direction: row;
+			flex-direction: column;
 			width: 400px;
 			height: 600px;
 			margin-top: 10px;
@@ -334,6 +334,21 @@
 			font-size: 200%;
 		}
 
+		#direccion{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-left: 20px;
+			margin-top: 100px;
+
+			padding-left: 20px;
+			width: 200px;
+
+		}
+
+		#direccion h3{
+			margin-left: 120px;
+		}
 
 
 }
@@ -652,6 +667,20 @@
 		font-size: 200%;
 	}
 
+
+	#direccion{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-left: 15%;
+		padding-left: 20px;
+		width: 200px;
+		
+	}
+	
+	#direccion h3{
+		margin-left: 120px;
+	}
 }
 
 /* --------------------------Para resoluciones mayores de 1024-----------------------------------*/
@@ -944,6 +973,23 @@
 	.fa-solid{
 		
 		font-size: 200%;
+	}
+
+
+
+
+	#direccion h3{
+		margin-left: 120px;
+	}
+
+	#direccion{
+		margin-left: 25%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		
+		padding-left: 20px;
+		width: 350px;
 	}
 }
 	
