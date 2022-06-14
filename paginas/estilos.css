@@ -7,6 +7,7 @@
 		p 
 	 {
 		color: rgb(0, 0, 0);
+		font-size: 19px;
 	 }
 
 	 body
@@ -204,7 +205,7 @@
 		}
 
 		div.descripcionFoto{
-
+			padding: 10px;
 			display: flex;
 			flex-direction: column;
 			align-content: center;
@@ -285,7 +286,7 @@
 			display: flex;
 			flex-direction: column;
 			width: 400px;
-			height: 600px;
+			height: 720px;
 			margin-top: 10px;
 			margin-left: 0px;
 			background: #6A87DB;
@@ -337,17 +338,20 @@
 		#direccion{
 			display: flex;
 			flex-direction: column;
-			align-items: flex-start;
-			margin-left: 20px;
-			margin-top: 100px;
-
+			align-items: center;
+			margin-left: 80px;
+			margin-top: 50px;
 			padding-left: 20px;
 			width: 200px;
 
 		}
 
 		#direccion h3{
-			margin-left: 120px;
+			margin-left: 0px;
+		}
+		iframe{
+			width: 320px;
+			height: 180px;
 		}
 
 
@@ -359,6 +363,7 @@
  p 
  {
  	color: rgb(0, 0, 0);
+	 font-size: 19px;
  }
 
  body
@@ -541,7 +546,7 @@
 	}
 	
 	div.descripcionFoto{
-		
+		padding: 10px;
 		display: flex;
 		flex-direction: column;
 		align-content: center;
@@ -619,7 +624,7 @@
 		display: flex;
 		flex-direction: row;
 		width: 650px;
-		height: 250px;
+		height: 350px;
 		margin-top: 10px;
 		margin-left: 0px;
 		background: #6A87DB;
@@ -671,15 +676,20 @@
 	#direccion{
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
-		margin-left: 15%;
+		align-items: center;
+		margin-left: 20%;
 		padding-left: 20px;
 		width: 200px;
 		
 	}
 	
 	#direccion h3{
-		margin-left: 120px;
+		margin-left: 10px;
+	}
+
+	iframe{
+		width: 280px;
+		height: 180px;
 	}
 }
 
@@ -689,6 +699,8 @@
  p 
  {
  	color: rgb(0, 0, 0);
+	font-size: 19px;
+	
  }
 
  body
@@ -848,7 +860,7 @@
 	}
 	
 	div.descripcionFoto{
-		
+		padding: 10px;		
 		display: flex;
 		flex-direction: column;
 		align-content: center;
@@ -926,7 +938,7 @@
 		display: flex;
 		flex-direction: row;
 		width: 1000px;
-		height: 250px;
+		height: 350px;
 		margin-top: 10px;
 		margin-left: 5px;
 		margin-right: 15px;
@@ -990,6 +1002,11 @@
 		
 		padding-left: 20px;
 		width: 350px;
+	}
+
+	iframe{
+		width: 320px;
+		height: 180px;
 	}
 }
 	
