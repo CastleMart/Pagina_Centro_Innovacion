@@ -243,6 +243,12 @@
 		margin: 20px 0;
 	}
 	
+	.info_imagen div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.info_imagen div img {
 		margin-top: 40px;
 		width: 90%;
@@ -584,6 +590,12 @@
 		margin: 10px 0;
 	}
 	
+	.info_imagen div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.info_imagen div img {
 		margin-top: 30px;
 		margin-left: 10px; margin-right: 10px;
@@ -902,6 +914,13 @@
 		background: #E3E4FF;
 		margin: 10px 0;
 	}
+
+	.info_imagen div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+	}
 	
 	.info_imagen div img {
 		margin-left: 40px;
@@ -912,7 +931,6 @@
 	}
 
 	.cajaInfo_texto{
-		display: none;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
