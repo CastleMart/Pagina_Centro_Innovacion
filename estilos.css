@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* -----------------------------Para resoluciones menores de 480------------------------------*/
+/* -----------------------------Para resoluciones menores de 699------------------------------*/
 @media only screen and (max-width:699px)
 {
 		p 
@@ -356,7 +356,7 @@
 
 }
 
-/* --------------------------Para resoluciones mayores de 481--------------------------*/
+/* --------------------------Para resoluciones mayores de 700--------------------------*/
 @media only screen and (min-width:700px)
 {
  p 
@@ -624,12 +624,13 @@
 		display: flex;
 		flex-direction: row;
 		width: 650px;
-		height: 350px;
+		height: 380px;
 		margin-top: 10px;
 		margin-left: 0px;
 		background: #6A87DB;
 		border-radius: 40px;
 		margin-bottom: 15px;
+		padding-top: 10px;
 
 	}
 	
@@ -685,6 +686,10 @@
 	
 	#direccion h3{
 		margin-left: 10px;
+	}
+	.realizado{
+
+		font-size: 15px;
 	}
 
 	iframe{
