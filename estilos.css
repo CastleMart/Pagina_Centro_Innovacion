@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
 
 /* -----------------------------Para resoluciones menores de 699------------------------------*/
 @media only screen and (max-width:699px)
@@ -18,8 +17,7 @@
 		background: #ffffff;
 		width: auto;
 		margin: 0 auto;
-		/*border: 2px solid rgb(0, 100, 100);*/
-
+		
 	 }
 
 
@@ -144,9 +142,7 @@
 
 		}
 
-		div.cajaInfo h1{
-
-		}
+		
 
 		div.cajaInfo p{
 
@@ -282,11 +278,6 @@
 		margin-top: 0px;
 	}
 
-
-
-
-
-
 		footer {
 			display: flex;
 			flex-direction: column;
@@ -379,7 +370,7 @@
     background: #ffffff;
     width: auto;
     margin: 0 auto;
-    /*border: 2px solid rgb(0, 100, 100);*/
+   
 
  }
 
@@ -393,8 +384,6 @@
     width: auto;
     height: 350px;
     background: #FFFFFF;
-	/*border: 2px solid rgb(0, 0, 0);
-	border-radius: 15px;*/
 	margin: 20px;
 	
  }
@@ -435,11 +424,7 @@
     text-align: center;
 	border-radius: 30px;
 	border: 2px solid #FFAB72;
-	/*margin-left: auto;
-	margin-top: 10px;
-	margin-right: 10px;*/
-	
-	
+		
 }
 
 	
@@ -451,12 +436,6 @@
 }
 
 #menu li a {
-    /*color: rgb(255, 255, 255);
-	
-	padding:10px;
-	padding-left: 50px;
-	padding-right: 50px;
-	display: block;*/
 	color: #542200 !important;
   	font-size: 20px;
   	font-weight: 600;
@@ -490,10 +469,7 @@
 		
 	}
 	
-	div.cajaInfo h1{
-		
-	}
-	
+
 	div.cajaInfo p{
 		
 		font-size: 25px;
@@ -521,12 +497,7 @@
   		grid-template-columns: repeat(2, 1fr);
   		grid-gap: 10px;
   		grid-auto-rows: minmax(100px, auto);
-		
-		/*margin-left: auto;
-		margin-right: 10px;
-		border: 2px solid;*/
 		width: 700px;
-		/*margin: 100px;*/
 		flex-direction: row;
 		margin-top: 20px;
 		
@@ -561,7 +532,6 @@
 	
 	div.galeria:hover{
 		box-shadow: 0 2px 2px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,9);
-		/*box-shadow: 0 0 30px rgba(255, 255, 255, .9);*/
   		transition: all 0.2s ease;
 	}
 	
@@ -728,8 +698,6 @@
     background: #ffffff;
     width: 1024px;
     margin: 0 auto;
-    /*border: 2px solid rgb(0, 100, 100);*/
-
  }
 
 
@@ -742,8 +710,6 @@
     width: auto;
     height: 400px;
     background: #FFFFFF;
-	/*border: 2px solid rgb(0, 0, 0);
-	border-radius: 15px;*/
 	margin: 20px;
 	
  }
@@ -765,10 +731,6 @@
     background: #FFCEAD	;
     text-align: center;
 	border-radius: 30px;
-	/*margin-left: auto;
-	margin-top: 10px;
-	margin-right: 10px;*/
-	
 }
 #btnMenu{
 
@@ -783,12 +745,6 @@
 }
 
 #menu li a {
-    /*color: rgb(255, 255, 255);
-	
-	padding:10px;
-	padding-left: 50px;
-	padding-right: 50px;
-	display: block;*/
 	color: #542200 !important;
   	font-size: 20px;
   	font-weight: 600;
@@ -798,8 +754,6 @@
   	position: relative;
 	border-radius: 15px;
 	text-decoration: none;
-	
-	
 }
 	
 	#menu li a:hover{
@@ -847,12 +801,7 @@
   		grid-template-columns: repeat(3, 1fr);
   		grid-gap: 10px;
   		grid-auto-rows: minmax(100px, auto);
-		
-		/*margin-left: auto;
-		margin-right: 10px;
-		border: 2px solid;*/
 		width: 1020px;
-		/*margin: 100px;*/
 		flex-direction: row;
 		margin-top: 20px;
 		
@@ -887,7 +836,6 @@
 	
 	div.galeria:hover{
 		box-shadow: 0 2px 2px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,9);
-		/*box-shadow: 0 0 30px rgba(255, 255, 255, .9);*/
   		transition: all 0.2s ease;
 	}
 	
@@ -907,7 +855,6 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		
 		width: 1000px;
 		height: auto;
 		border-radius: 90px;
@@ -937,7 +884,6 @@
 		margin-top: 40px;
 		margin-bottom: 30px;
 		margin-left: 70px;
-		
 		width: 450px;
 		
 		
@@ -974,7 +920,6 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		
 		padding-left: 20px;
 		width: 350px;
 		
@@ -999,7 +944,6 @@
 		padding-top: 6px;
 		padding-bottom: 6px;
 		display: flex;
-		
 		width: 40px;
 		
 		
@@ -1021,7 +965,6 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		
 		padding-left: 20px;
 		width: 350px;
 	}
